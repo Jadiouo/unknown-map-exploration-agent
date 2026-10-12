@@ -1,0 +1,76 @@
+{
+  "train_seed": 20280511,
+  "test_seed": 20280621,
+  "train_maps": 55,
+  "test_maps": 65,
+  "selected": [
+    "Fixed δ=2",
+    "Corridor +1",
+    "Unknown branching +0.5"
+  ],
+  "results": [
+    {
+      "strategy": "Fixed δ=2",
+      "train_score": 87.136,
+      "train_steps": 72.62,
+      "train_success": 55,
+      "test_score": 87.426,
+      "test_steps": 80.15,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        56,
+        85,
+        100
+      ]
+    },
+    {
+      "strategy": "Junction +0.5",
+      "train_score": 86.818,
+      "train_steps": 65.31,
+      "train_success": 55
+    },
+    {
+      "strategy": "Junction +1",
+      "train_score": 86.518,
+      "train_steps": 72.33,
+      "train_success": 55
+    },
+    {
+      "strategy": "Corridor +1",
+      "train_score": 87.333,
+      "train_steps": 70.98,
+      "train_success": 55,
+      "test_score": 87.572,
+      "test_steps": 77.91,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        58,
+        85,
+        96
+      ]
+    },
+    {
+      "strategy": "Unknown branching +0.5",
+      "train_score": 87.274,
+      "train_steps": 69.75,
+      "train_success": 55,
+      "test_score": 87.711,
+      "test_steps": 69.91,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        58,
+        85,
+        100
+      ]
+    },
+    {
+      "strategy": "Wall penalty 0.5",
+      "train_score": 86.624,
+      "train_steps": 63.42,
+      "train_success": 55
+    }
+  ]
+}
