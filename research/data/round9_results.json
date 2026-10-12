@@ -1,0 +1,92 @@
+{
+  "train_seed": 20291117,
+  "test_seed": 20291219,
+  "train_n": 45,
+  "test_n": 65,
+  "selected": [
+    "Fixed Utility",
+    "Corridor +1",
+    "Branch +0.5",
+    "Combined"
+  ],
+  "results": [
+    {
+      "name": "Fixed Utility",
+      "train_score": 87.3375,
+      "train_steps": 83,
+      "train_success": 45,
+      "test_score": 88.7411,
+      "test_steps": 57.29,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        56,
+        85,
+        100
+      ]
+    },
+    {
+      "name": "Branch +0.5",
+      "train_score": 86.7223,
+      "train_steps": 85.31,
+      "train_success": 45,
+      "test_score": 89.0105,
+      "test_steps": 56,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        58,
+        85,
+        100
+      ]
+    },
+    {
+      "name": "Corridor +1",
+      "train_score": 87.1944,
+      "train_steps": 84.78,
+      "train_success": 45,
+      "test_score": 88.7507,
+      "test_steps": 58.37,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        58,
+        85,
+        96
+      ]
+    },
+    {
+      "name": "Combined",
+      "train_score": 86.5382,
+      "train_steps": 95.44,
+      "train_success": 45,
+      "test_score": 88.9919,
+      "test_steps": 54.06,
+      "test_success": 65,
+      "test_collisions": 0,
+      "public_steps": [
+        60,
+        85,
+        96
+      ]
+    },
+    {
+      "name": "Half combined",
+      "train_score": 86.5364,
+      "train_steps": 95.58,
+      "train_success": 45
+    },
+    {
+      "name": "Switch unseen",
+      "train_score": 86.5382,
+      "train_steps": 95.44,
+      "train_success": 45
+    },
+    {
+      "name": "Switch wall",
+      "train_score": 86.4104,
+      "train_steps": 98.69,
+      "train_success": 45
+    }
+  ]
+}
