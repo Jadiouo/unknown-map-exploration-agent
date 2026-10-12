@@ -1,0 +1,176 @@
+{
+  "train_seed": 20261211,
+  "test_seed": 20261219,
+  "results": [
+    {
+      "name": "Original",
+      "train_score": 87.201,
+      "train_success": 70,
+      "train_steps": 60.89,
+      "test_score": 87.866,
+      "test_success": 90,
+      "test_steps": 83.77,
+      "test_collisions": 0,
+      "by_density": {
+        "0.1": 87.508,
+        "0.2": 86.454,
+        "0.3": 90.474
+      },
+      "public": [
+        [
+          85.71428571428571,
+          56,
+          true,
+          0
+        ],
+        [
+          90.58823529411765,
+          85,
+          true,
+          0
+        ],
+        [
+          85.2,
+          100,
+          true,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Fixed cluster 2",
+      "train_score": 87.201,
+      "train_success": 70,
+      "train_steps": 60.89,
+      "test_score": 87.866,
+      "test_success": 90,
+      "test_steps": 83.77,
+      "test_collisions": 0,
+      "by_density": {
+        "0.1": 87.508,
+        "0.2": 86.454,
+        "0.3": 90.474
+      },
+      "public": [
+        [
+          85.71428571428571,
+          56,
+          true,
+          0
+        ],
+        [
+          90.58823529411765,
+          85,
+          true,
+          0
+        ],
+        [
+          85.2,
+          100,
+          true,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Adaptive corridor",
+      "train_score": 85.804,
+      "train_success": 69,
+      "train_steps": 65.76
+    },
+    {
+      "name": "Adaptive density",
+      "train_score": 87.095,
+      "train_success": 70,
+      "train_steps": 60.49
+    },
+    {
+      "name": "Adaptive frontier",
+      "train_score": 87.069,
+      "train_success": 70,
+      "train_steps": 59.37
+    },
+    {
+      "name": "Adaptive mixed",
+      "train_score": 87.125,
+      "train_success": 70,
+      "train_steps": 57.54,
+      "test_score": 87.796,
+      "test_success": 90,
+      "test_steps": 82.57,
+      "test_collisions": 0,
+      "by_density": {
+        "0.1": 87.908,
+        "0.2": 86.51,
+        "0.3": 89.645
+      },
+      "public": [
+        [
+          88.0,
+          40,
+          true,
+          0
+        ],
+        [
+          90.58823529411765,
+          85,
+          true,
+          0
+        ],
+        [
+          85.2,
+          100,
+          true,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Adaptive smooth",
+      "train_score": 87.341,
+      "train_success": 70,
+      "train_steps": 58.29,
+      "test_score": 87.914,
+      "test_success": 90,
+      "test_steps": 77.74,
+      "test_collisions": 0,
+      "by_density": {
+        "0.1": 88.665,
+        "0.2": 86.243,
+        "0.3": 89.584
+      },
+      "public": [
+        [
+          85.71428571428571,
+          56,
+          true,
+          0
+        ],
+        [
+          90.58823529411765,
+          85,
+          true,
+          0
+        ],
+        [
+          85.2,
+          100,
+          true,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Adaptive corridor2",
+      "train_score": 86.696,
+      "train_success": 70,
+      "train_steps": 68.63
+    }
+  ],
+  "tested": [
+    "Original",
+    "Fixed cluster 2",
+    "Adaptive smooth",
+    "Adaptive mixed"
+  ]
+}
