@@ -1,0 +1,154 @@
+{
+  "train_seed": 20270303,
+  "test_seed": 20270407,
+  "train_maps": 70,
+  "test_maps": 100,
+  "selected": [
+    "Commit 4",
+    "Commit always",
+    "Commit 1",
+    "Fixed delta2"
+  ],
+  "results": [
+    {
+      "name": "Fixed delta2",
+      "train_score": 86.924,
+      "train_steps": 86.6,
+      "train_success": 70,
+      "test_score": 88.321,
+      "test_steps": 67.58,
+      "test_success": 100,
+      "test_collisions": 0,
+      "test_density": {
+        "0.1": 87.358,
+        "0.2": 89.452,
+        "0.3": 88.288
+      },
+      "public": [
+        {
+          "steps": 56,
+          "score": 85.714,
+          "success": true
+        },
+        {
+          "steps": 85,
+          "score": 90.588,
+          "success": true
+        },
+        {
+          "steps": 100,
+          "score": 85.2,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "Commit 0",
+      "train_score": 86.925,
+      "train_steps": 86.54,
+      "train_success": 70
+    },
+    {
+      "name": "Commit 1",
+      "train_score": 86.931,
+      "train_steps": 85.29,
+      "train_success": 70,
+      "test_score": 88.323,
+      "test_steps": 67.52,
+      "test_success": 100,
+      "test_collisions": 0,
+      "test_density": {
+        "0.1": 87.358,
+        "0.2": 89.452,
+        "0.3": 88.294
+      },
+      "public": [
+        {
+          "steps": 56,
+          "score": 85.714,
+          "success": true
+        },
+        {
+          "steps": 85,
+          "score": 90.588,
+          "success": true
+        },
+        {
+          "steps": 100,
+          "score": 85.2,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "Commit 2",
+      "train_score": 86.929,
+      "train_steps": 85.51,
+      "train_success": 70
+    },
+    {
+      "name": "Commit 4",
+      "train_score": 86.932,
+      "train_steps": 85.34,
+      "train_success": 70,
+      "test_score": 88.409,
+      "test_steps": 65.24,
+      "test_success": 100,
+      "test_collisions": 0,
+      "test_density": {
+        "0.1": 87.358,
+        "0.2": 89.452,
+        "0.3": 88.534
+      },
+      "public": [
+        {
+          "steps": 56,
+          "score": 85.714,
+          "success": true
+        },
+        {
+          "steps": 85,
+          "score": 90.588,
+          "success": true
+        },
+        {
+          "steps": 100,
+          "score": 85.2,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "Commit always",
+      "train_score": 86.932,
+      "train_steps": 85.34,
+      "train_success": 70,
+      "test_score": 88.409,
+      "test_steps": 65.24,
+      "test_success": 100,
+      "test_collisions": 0,
+      "test_density": {
+        "0.1": 87.358,
+        "0.2": 89.452,
+        "0.3": 88.534
+      },
+      "public": [
+        {
+          "steps": 56,
+          "score": 85.714,
+          "success": true
+        },
+        {
+          "steps": 85,
+          "score": 90.588,
+          "success": true
+        },
+        {
+          "steps": 100,
+          "score": 85.2,
+          "success": true
+        }
+      ]
+    }
+  ]
+}
