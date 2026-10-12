@@ -1,5 +1,7 @@
 # Unknown-Map Exploration Agent
 
+> **Upload status:** The main Agent, ten-round research report, and rounds 5–10 result JSONs are available. The original homework assets, some earlier experiment scripts/data, and route PNGs are still being transferred; links to those files in this README may not work yet.
+
 **十輪未知地圖自主探索演算法實驗**｜Python · Search Algorithms · Frontier Exploration
 
 Agent 無法預先取得完整迷宮，只能依據每一步觀測到的鄰近格子更新內部地圖，並在移動步數限制內搜尋終點。本專案記錄從搜尋基準到探索啟發式的十輪比較，以及最終保留策略的設計與限制。
