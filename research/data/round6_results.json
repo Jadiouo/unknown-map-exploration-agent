@@ -1,0 +1,106 @@
+{
+  "train_seed": 20270116,
+  "test_seed": 20270227,
+  "train_maps": 45,
+  "test_maps": 24,
+  "results": [
+    {
+      "name": "Fixed delta2",
+      "train_score": 87.774,
+      "train_steps": 71.56,
+      "train_success": 45,
+      "test_score": 87.537,
+      "test_steps": 66.46,
+      "test_success": 24,
+      "test_collisions": 0,
+      "public": [
+        {
+          "score": 85.71,
+          "steps": 56,
+          "success": true
+        },
+        {
+          "score": 90.59,
+          "steps": 85,
+          "success": true
+        },
+        {
+          "score": 85.2,
+          "steps": 100,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "Lookahead w0.25",
+      "train_score": 86.983,
+      "train_steps": 78.76,
+      "train_success": 45
+    },
+    {
+      "name": "Lookahead w0.5",
+      "train_score": 87.024,
+      "train_steps": 75.29,
+      "train_success": 45
+    },
+    {
+      "name": "Lookahead w1",
+      "train_score": 87.32,
+      "train_steps": 74.53,
+      "train_success": 45,
+      "test_score": 86.322,
+      "test_steps": 71.04,
+      "test_success": 24,
+      "test_collisions": 0,
+      "public": [
+        {
+          "score": 83.9,
+          "steps": 82,
+          "success": true
+        },
+        {
+          "score": 86.77,
+          "steps": 133,
+          "success": true
+        },
+        {
+          "score": 87.22,
+          "steps": 72,
+          "success": true
+        }
+      ]
+    },
+    {
+      "name": "Lookahead w0.5 conservative",
+      "train_score": 87.944,
+      "train_steps": 66.53,
+      "train_success": 45,
+      "test_score": 87.159,
+      "test_steps": 68.29,
+      "test_success": 24,
+      "test_collisions": 0,
+      "public": [
+        {
+          "score": 85.71,
+          "steps": 56,
+          "success": true
+        },
+        {
+          "score": 90.59,
+          "steps": 85,
+          "success": true
+        },
+        {
+          "score": 85.2,
+          "steps": 100,
+          "success": true
+        }
+      ]
+    }
+  ],
+  "selected": [
+    "Fixed delta2",
+    "Lookahead w0.5 conservative",
+    "Lookahead w1"
+  ]
+}
